@@ -1,0 +1,105 @@
+.check {
+    margin-top: 100px;
+    display: flex;
+}
+
+.check-img {
+    margin-left: 75px;
+}
+
+.check-img img{
+    width: 508px;
+    height: 414px;
+}
+
+.check-information {
+    padding: 100px 0 0 160px;
+}
+
+.check-name {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    padding-right: 190px;
+    font-weight: 500;
+}
+
+.check-title {
+    font-size: 1.6rem;
+    padding: 20px 0;
+    line-height: 2.8rem;
+    padding: 20px 134px 20px 0px;
+}
+
+.check-ticks {
+
+}
+
+.check-tick {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.check-tick ion-icon {
+    padding-right: 10px;
+    color: #2FAB73;
+}
+
+.check-tick-name {
+
+}
+
+
+/* responsive ipad pro*/
+
+@media screen and (max-width: 1365px) {
+    .check {
+        align-items: center;
+    }
+    .check-img {
+        margin-left: 0;
+    }
+    .check-information {
+        padding: 0 0 0 40px;
+    }
+    .check-name {
+        padding-right: 0;
+    }
+    .check-title {
+        padding-right: 0;
+    }
+}
+
+/* responsive ipad */
+@media screen and (max-width: 1023px) {
+    .check {
+        align-items: center;
+    }
+    .check-img img{
+        width: 315px;
+        height: 270px;
+    }
+    .check-name {
+        font-size: 24px;
+        line-height: 2.8rem;
+    }
+    .check-title {
+        font-size: 1.4rem;
+    }
+    .check-tick {
+        font-size: 1.2rem;
+    }
+}
+
+/* responsive mobile */
+@media screen and (max-width: 767px) {
+    .check {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .check-name {
+        padding-top: 40px;
+    }
+}

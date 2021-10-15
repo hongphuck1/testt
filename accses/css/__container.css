@@ -1,0 +1,80 @@
+
+
+.container {
+    background: linear-gradient( #F8F8F8, #ffffff);
+    /* height: 400px; */
+}
+
+.container-body {
+}
+
+.body-content {
+    color: var(--black);
+    text-align: center;
+}
+
+.body-name {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+    padding: 70px 260px 20px;
+    
+    line-height: 4.8rem;
+}
+
+.body-title {
+    padding: 0px 396px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--text);
+    margin-bottom: 80px;
+}
+
+
+.advertise {
+    background-image: url(../img/Sponsored.png);
+    height: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 1365px) {
+    .body-name {
+
+    }
+
+    .body-name {
+        padding: 70px 0 10px 0;
+        font-size: 3.0rem;
+    }
+    .body-title {
+        padding: 0 155px;
+    }
+
+    .advertise {
+        margin-top: 36px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .body-title {
+        padding: 0 85px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .body-name {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+    }
+    .body-title {
+        padding: 0 50px;
+        font-size: 1.4rem;
+    }
+    .advertise {
+        background-size: contain;
+    }
+}

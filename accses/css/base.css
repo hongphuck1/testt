@@ -1,0 +1,20 @@
+:root {
+    --primary: #F53838;
+    --border: #888;
+    --text: #4F5665;
+    --black: #0B132A;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    height: 2000px;
+}

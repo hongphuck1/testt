@@ -1,0 +1,162 @@
+.info {
+    padding-top: 150px;
+}
+
+.social {
+
+}
+
+.social-img {
+
+}
+
+.social-img img {
+
+} 
+
+
+.social-name {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding: 20px 327px 20px 0;
+    color: var(--text);
+}
+
+.social-icon {
+    font-size: 1.8rem;
+}
+
+.social-icon i {
+    font-size: 1.8rem;
+    background-color: var(--white);
+    color: var(--primary);
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-right: 10px;
+    box-shadow: 0px 3px 10px -6px rgb(1 0 0 / 40%);
+    transition: 0.3s;
+}
+
+.social-icon i:hover {
+    box-shadow: 0px 3px 10px -2px rgb(255 0 0 / 40%);
+
+}
+
+.social-icon a {
+    text-decoration: none;
+}
+
+.social-copy {
+    padding-top: 20px;
+    font-size: 1.4rem;
+    color: var(--border);
+}
+.social-copy a {
+    text-decoration: none;
+}
+
+.shortcuts {
+    
+}
+
+
+.shortcuts-name {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.shortcuts-list {
+
+}
+
+.shortcuts-items {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 1.6rem;
+}
+
+.shortcuts-items a {
+    color: var(--text);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+.shortcuts-items:hover a {
+    color: var(--primary);
+
+}
+
+
+@media screen and (max-width: 1365px) {
+    .social-img img {
+        width: 250px;
+    }
+    .social-name {
+        padding-right: 100px;
+        font-size: 2.1rem;
+    }
+    .social-icon a i {
+        width: 60px;
+        height: 60px;
+        font-size: 3.0rem;
+    }
+    .social-copy {
+        font-size: 1.8rem;
+    }
+
+    .shortcuts-name {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .social-img img {
+        width: 200px;
+    }
+    .social-name {
+        font-size: 1.2rem;
+    }
+    .social-icon a i {
+        width: 40px;
+        height: 40px;
+        font-size: 2rem;
+    }
+    .social-copy {
+        font-size: 1.4rem;
+    }
+
+    .shortcuts-name {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .shortcuts-items a {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .info {
+        padding: 20px 10px 0;
+    }
+    .social-img{
+        text-align: center;
+    }
+    .social-img img {
+        width: 180px;
+    }
+    .social-name {
+        font-size: 1.2rem;
+        padding-right: 0;
+    }
+    .social-icon a i {
+        width: 30px;
+        height: 30px;
+        font-size: 1.4rem;
+    }
+}

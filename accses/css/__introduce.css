@@ -1,0 +1,141 @@
+.introduce {
+    display: flex;
+    margin: 100px 0;
+}
+
+.introduce-information {
+
+}
+
+.introduce-name {
+    font-size: 5.0rem;
+    line-height: 7rem;
+    padding-right: 150px;
+    color: var(--black);
+    font-weight: 500;
+
+}
+
+.introduce-title {
+    font-size: 1.6rem;
+    color: var(--text);
+    line-height: 2.8rem;
+    margin: 30px 0 50px;
+    padding-right: 150px;
+    font-weight: 400;
+}
+
+.introduce-box {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 1.6rem;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: 0 18px 36px -15px var(--primary);
+    cursor: pointer;
+}
+
+.introduce-img {
+}
+
+.introduce-img img {
+    width: 611px;
+    height: 382px;
+    margin-right: 10px;
+
+}
+
+@media screen and (max-width: 1365px){
+    .introduce-img img {
+        height: 250px;
+        width: 411px;
+    }
+
+    .introduce-name {
+        font-size: 5rem;
+        padding-right: 20px;
+        font-weight: 400;
+    }
+
+    .introduce-title {
+        font-size: 1.8rem;
+        padding-right: 111px;
+    }
+    .introduce-box { 
+        padding: 26px 60px;
+        font-size: 2.2rem;
+    }
+}
+
+
+@media screen and (max-width: 1023px)
+{
+
+    
+    .introduce-img {
+        display: flex;
+        align-items: center;
+    }
+    
+    .introduce-img img {
+        width: 300px;
+        height: 190px;
+    }
+
+    .introduce-information {
+
+    }
+
+    .introduce-name {
+        padding-right: 0;
+        width: 380px;
+        font-size: 2.8rem;
+        line-height: 4.5rem;
+    }
+    .introduce-title {
+        padding-right: 20px;
+
+    }
+}
+
+
+/* responsive điện thoại */
+@media screen and (max-width: 767px) {
+    .introduce {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 30px 0 100px 0;
+    }
+
+    .introduce-information {
+        padding: 0 10px;
+    }
+    .introduce-box {
+        display: block;
+        margin: auto;
+        width: 200px;
+        padding: 19px;
+        font-size: 1.5rem;
+    }
+
+    .introduce-box span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .introduce-img {
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .introduce-name {
+        line-height: 3.5rem;
+    }
+
+    .introduce-title {
+        margin-top: 10px;
+
+    }
+}

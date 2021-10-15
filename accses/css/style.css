@@ -1,0 +1,13 @@
+.app {
+    overflow: hidden;
+}
+
+.header {
+    background-color: #fbfbfb;
+    padding-bottom: 100px;
+}
+
+.header-container {
+    /* background-color: #ccc; */
+}
+

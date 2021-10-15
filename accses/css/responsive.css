@@ -1,0 +1,19 @@
+
+/* ipad pro 1024 x 1366 */
+@media screen and (max-width: 1023px)
+{
+    .introduce-img img {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 1365px) {
+    .buy-select {
+        width: 300px;
+    }
+
+    .buy-tick {
+        padding-left: 75px;
+    }
+}

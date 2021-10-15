@@ -1,0 +1,115 @@
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.nav-img {
+    cursor: pointer;
+}
+
+.nav-img img {
+
+}
+
+.nav-list {
+
+}
+
+.nav-list ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list ul li{
+    padding: 0 25px;
+
+}
+.nav-list ul li:hover a{
+    color: var(--primary);
+
+}
+.nav-list ul li a{
+    font-size: 1.6rem;
+    color: var(--text);
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.nav-register {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.nav-signin {
+    padding-right: 40px;
+    color: var(--black);
+}
+
+.nav-signup {
+
+}
+
+
+.nav-signin a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 800;
+}
+
+.nav-signup a {
+    text-decoration: none;
+    padding: 14px 60px;
+    border: var(--primary) solid 2px;
+    color: var(--primary);
+    border-radius: 100px;
+    font-weight: 800;
+
+}
+
+
+/* respinsive ipad pro */
+@media screen and (max-width: 1365px){
+    
+    .nav-list ul {
+    margin-left: -102px;
+    }
+    .nav-list ul li{
+        padding: 0 14px;
+    }
+
+}
+/* responsive ipad */
+@media screen and (max-width: 1023px)
+{
+    .nav-list {
+        display: none;
+    }
+
+
+}
+
+/* responsive điện thoại */
+
+@media screen and (max-width: 767px)
+{
+    .nav {
+        padding: 50px 10px;
+    }
+    .nav-img img{
+        width: 120px;
+    }
+
+    .nav-register {
+        font-size: 1.4rem;
+    }
+    .nav-signin {
+        padding-right: 14px;
+    }
+    .nav-signup a {
+        padding: 7px 15px;
+    }
+}
